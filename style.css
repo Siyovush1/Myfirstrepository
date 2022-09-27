@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    height: 6vh;
+    background-color: #F8F8F8;
+    border: 1px solid lightgray;
+    padding: 16px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu1{
+     justify-content: space-between;
+}
+.menu1 ol{
+    display: flex;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: black;
+    text-align: center;
+}
+.menu1 li:hover{
+    background-color: lightgrey;
+    color: white;
+}
+.menu1 a:hover{
+    color: white;
+}
+.menu1 li{
+    color: black;
+    padding: 8px 18px;
+}
+a{
+    text-decoration: none;
+}
+.menu a{
+    color: black;
+}
+ol{
+    list-style: none;
+}
+.menu2{
+    top: 16px;
+    position: absolute;
+    left: 45%;
+}
+.empty{
+    width: 100%;
+    height: 4vh;
+    background-color: white;
+}.imagefone img{
+    width: 100%;
+}
+.imagefone{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+.imagefon{
+    text-align: center;
+    line-height: 10vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+}
+.imagefon h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;  
+    letter-spacing: 0.2px;
+    color: white;
+    padding-top: 270px;
+}
+.imagefon a{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    padding: 7px 41px;
+    border: 2px solid white;
+}
+.imagefon a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.doyouknow{
+    position: absolute;
+    bottom: -52px;
+    left: 24px;
+    font-family: pala;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px 31px;
+    background-color: black;
+    color: white;
+}
+.icons{
+    margin: 100px 50px 50px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.icon{
+    display: flex;
+}
+.iconp p{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.icons a:hover{
+    color: rgb(199, 195, 195);
+}
+.icons img{
+    opacity: 1;
+}
+.icons img:hover{
+    opacity: 0.7;
+}
+.review{
+    margin-top: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.imag{
+    display: flex;
+}
+.imag img{
+    width: 100%;
+}
+.imagg{
+    width: 25%;
+    opacity: 1;
+}
+.imagg:hover{
+    opacity: 0.7;
+}
+.part1{
+    display: flex;
+    margin-top: 20px;
+}
+.text{
+    margin-top: 100px;
+    margin-right: 24px;
+    text-align: right;
+    line-height: 2vh;
+    margin-left: 24px;
+}
+.part1 h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+}
+.part1 h5{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 18px;   
+}
+.part1 h6{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 15px; 
+}
+.part1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;  
+    line-height: 3vh; 
+}
+.part1 a{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 15px; 
+    text-decoration: underline;
+    color: black;
+}
+.part1 a:hover{
+    color: rgb(215, 56, 56);
+}
+.part2 a:hover{
+    color: rgb(215, 56, 56);
+}
+.part3 a:hover{
+    color: rgb(215, 56, 56);
+}
+.text2{
+    margin-top: 100px;
+    margin-right: 24px;
+    text-align: left;
+    line-height: 2vh;
+    margin-left: 24px;
+}
+.part2{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.part2 h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+}
+.part2 h5{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 18px;   
+}
+.part2 h6{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 15px; 
+}
+.part2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;  
+    line-height: 3vh; 
+}
+.part2 a{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 15px; 
+    text-decoration: underline;
+    color: black;
+}
+.new{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+.part3{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.part3 h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+}
+.part3 h5{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 18px;   
+}
+.part3 h6{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 15px; 
+}
+.part3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;  
+    line-height: 3vh; 
+}
+.part3 a{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 15px; 
+    text-decoration: underline;
+    color: black;
+}
+.new1{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+
+}
+.our{
+    padding-top: 50px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    line-height: 8vh;
+}
+.ourimg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.ourimg1 img{
+    width: 100%;
+}
+.our h2{
+    font-family: 'Cardo', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.our h6{
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.ourimg1{
+    opacity: 1;
+}
+.ourimg1:hover{
+    opacity: 0.7;
+}
+.square1{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 2px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+}
+.square1:hover{
+    background-color: rgb(112, 110, 110);
+}
+.theteam{
+    text-align: center;
+    margin-top: 80px;
+}
+.theteam p{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.squaree{
+    display: flex;
+    justify-content: center;
+}
+.square2{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 2px;
+}
+.square3{
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    margin: 3px 2px;
+}
+.square4{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin: 4px 2px;
+}
+.square2:hover{
+    background-color: rgb(112, 110, 110);
+}
+.square3:hover{
+    background-color: rgb(112, 110, 110);
+}
+.square4:hover{
+    background-color: rgb(112, 110, 110);
+}
+.design{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 25%;
+}
+.design h4{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 10vh;
+}
+.design p{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+margin-bottom: 36px;
+}
+.design a{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: black;
+text-decoration: underline;
+}
+.learnmore{
+    display: flex;
+    width: 100%;
+}
+.design1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 25%;
+    background-color: #F8F8F8;
+}
+.design1 h4{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 10vh;
+}
+.design1 p{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+margin-bottom: 36px;
+}
+.design1 a{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: black;
+text-decoration: underline;
+}
+.learnmore a:hover{
+    color: rgb(180, 177, 177);
+    font-weight: 600;
+}
+.end{
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+    line-height: 7vh;
+}
+.end p{
+    font-family: 'Cardo', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-bottom: 18px;
+}
+.end img{
+    width: 100%;
+}
+.footabout h2{
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 10vh;
+font-family: 'Cardo', serif;
+}
+.foot1a1 p{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 4vh;
+font-family: 'Cardo', serif;
+}
+footer a{
+    color: black;
+}
+.foot1a1{
+    text-align: center;
+}
+.foota1{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 0px 48px;
+}
+.foota{
+    width: 100%;
+}
+.foota{
+    display: flex;
+}
+.foota2{
+    margin: 24px 150px 0px 36px;
+}
+.foota2 p{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 4vh;
+font-family: 'Cardo', serif;
+}
+form{
+    margin: 4px 24px;
+}
+input{
+    padding: 2px 28px;
+    border: 1px solid black;
+    text-align: center;
+}
+.fsc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 24px;
+}
+#stars{
+    margin: 0px 8px;
+}
+.footb{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer{
+    background-color: #F8F8F8;
+    padding-bottom: 50px;
+}
+footer a:hover{
+    color: rgb(203, 202, 202);
+}
